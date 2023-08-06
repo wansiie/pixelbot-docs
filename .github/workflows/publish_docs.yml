@@ -15,7 +15,6 @@ jobs:
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
-          CUSTOM_DOMAIN: pixelbots.is-a.dev
           CONFIG_FILE: folder/mkdocs.yml
           EXTRA_PACKAGES: build-base
           REQUIREMENTS: folder/requirements.txt
