@@ -1,0 +1,10 @@
+site_name: PixelBots Docs
+site_description: 'The documentation for PixelBots'
+site_author: 'wansiie'
+docs_dir: docs/
+repo_name: 'wansiie/pixelbot-docs'
+repo_url: 'https://github.com/wansiie/pixelbot-docs'
+nav:
+    - Home: index.md
+theme:
+  name: 'material'
